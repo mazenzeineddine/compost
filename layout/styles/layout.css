@@ -123,7 +123,7 @@ File: Layout CSS
 
 /* Footer
 --------------------------------------------------------------------------------------------------------------- */
-#footer{padding:80px 0; padding-left:200px;}
+#footer{padding:80px 0;}
 
 #footer .heading{margin-bottom:50px; font-size:1.2rem;}
 #footer p + .faico{margin-top:30px;}
@@ -136,7 +136,7 @@ File: Layout CSS
 #footer .linklist li:last-child{margin:0; padding:0; border:none;}
 #footer .linklist li::before, #footer .linklist li::after{display:table; content:"";}
 #footer .linklist li, #footer .linklist li::after{clear:both;}
-#footer img{height:200px; width:300px;}
+#footer img{height:250px; width:300px;}
 
 
 /* Copyright
@@ -283,7 +283,7 @@ label span{color:#FF0000; background-color:inherit;}
 input:focus, textarea:focus, *:required:focus{border-color:#0AC6FC !important;}
 
 .overlay{color:#FFFFFF; background-color:inherit;}
-.overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
+.overlay::after{color:inherit; background-color:rgba(0,0,0,.30);}
 .overlay.light{color:#474747;}
 .overlay.light::after{background-color:rgba(255,255,255,.7);}
 
